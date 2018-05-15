@@ -1,0 +1,28 @@
+// AboutPage
+.about_container {
+  width: 80%;
+  height: 20%;
+  top: 40%;
+  left: 10%;
+  position: absolute;
+}
+
+.about {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  letter-spacing: 0.25em;
+  color: #fff;
+  text-align: center;
+}
+
+.about_message {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 0.125em;
+  color: #fff;
+  text-align: center;
+}

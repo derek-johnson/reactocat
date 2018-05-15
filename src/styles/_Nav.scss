@@ -1,0 +1,168 @@
+#nav li {
+  margin-bottom: 10px;
+}
+
+.offCanvas {
+  height: 100%;
+  width: 50%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.link-home {
+  // margin: 0 175px;
+  height: 10%;
+  top: 30%;
+  width: 25%;
+  margin-left: 27%;
+  position: absolute;
+}
+
+.link-about {
+  // margin: 0 175px;
+  height: 10%;
+  top: 45%;
+  width: 25%;
+  margin-left: 27%;
+  position: absolute;
+}
+
+.link-contact {
+  // margin: 0 175px;
+  height: 10%;
+  top: 60%;
+  width: 25%;
+  margin-left: 27%;
+  position: absolute;
+}
+
+.link-home,
+.link-about,
+.link-contact,
+.link-home:visited,
+.link-about:visited,
+.link-contact:visited,
+.link-home:focus,
+.link-about:focus,
+.link-contact:focus {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.75em;
+  font-weight: normal;
+  text-transform: uppercase;
+  // letter-spacing: 0.0125em;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+  .link-home,
+  .link-about,
+  .link-contact {
+    height: 5%;
+    font-size: 2.25em;
+    vertical-align: middle;
+  }
+
+  .link-home {
+    top: 35%;
+  }
+
+  .link-about {
+    top: 45%;
+  }
+
+  .link-contact {
+    top: 55%;
+  }
+}
+
+svg.grid {
+  // object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+line {
+  stroke: #808080;
+  stroke-width: 0.25px;
+}
+
+// hr:after {
+//   content: '';
+//   width: 0;
+//   height: 100%;
+//   position: absolute;
+//   border: 1px solid white;
+//   left: 150px;
+// }
+
+#flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+
+#flyoutMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+#flyoutMenu.show {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  z-index: 1000;
+  margin: 0 auto;
+}
+
+#flyoutMenu h2 {
+  color: #333;
+  // margin-left: 15px;
+  text-decoration: none;
+}
+
+#flyoutMenu h2:hover {
+  text-decoration: underline;
+}
+
+.flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+
+.flyoutMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+.flyoutMenu.show {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  z-index: 1000;
+}
